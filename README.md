@@ -23,15 +23,14 @@ This is just the **frontend version** for now ⚡, and I'm actively looking to *
 ## 🖼 Demo / Screenshots
 See it live here: [https://via-health-48ei.vercel.app/](https://via-health-48ei.vercel.app/)  
 
-Screenshots (optional):
+Screenshots :
 ![Via Health](public/viahealth.jpg)
 
 ---
 
 ## 🛠 Technologies Used
 - ⚛️ **React**  
-- 🎨 **CSS / Tailwind (if used)**  
-- 📈 **Charts / Visualization Libraries** (if used)  
+- 🎨 **CSS / Tailwind (if used)**   
 - 🧰 **Other Tools:** npm, Vercel for deployment  
 
 ---
