@@ -24,8 +24,7 @@ This is just the **frontend version** for now ⚡, and I'm actively looking to *
 See it live here: [https://via-health-48ei.vercel.app/](https://via-health-48ei.vercel.app/)  
 
 Screenshots (optional):
-![Homepage](path/to/screenshot1.png)  
-![Data View](path/to/screenshot2.png)  
+![Via Health](public/viahealth.jpg)
 
 ---
 
