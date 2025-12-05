@@ -47,12 +47,12 @@ export default function ViaHealthApp() {
   });
 
   const services = [
-    { id: 1, name: 'Blood Test', icon: '🩸', price: '$45', time: '30 min' },
-    { id: 2, name: 'Health Checkup', icon: '🏥', price: '$80', time: '45 min' },
-    { id: 3, name: 'Vaccination', icon: '💉', price: '$35', time: '20 min' },
-    { id: 4, name: 'IV Therapy', icon: '💧', price: '$120', time: '60 min' },
-    { id: 5, name: 'Wound Care', icon: '🩹', price: '$60', time: '40 min' },
-    { id: 6, name: 'Physical Therapy', icon: '🤸', price: '$90', time: '50 min' }
+    { id: 1, name: 'Blood Test', icon: '🩸', price: '800 DA', time: '30 min' },
+    { id: 2, name: 'Health Checkup', icon: '🏥', price: '2200 DA', time: '45 min' },
+    { id: 3, name: 'Vaccination', icon: '💉', price: '600 DA', time: '20 min' },
+    { id: 4, name: 'IV Therapy', icon: '💧', price: '2000 DA', time: '60 min' },
+    { id: 5, name: 'Wound Care', icon: '🩹', price: '700 DA', time: '40 min' },
+    { id: 6, name: 'Physical Therapy', icon: '🤸', price: '2000 DA', time: '50 min' }
   ];
 
   const HomeScreen = () => (
@@ -214,7 +214,7 @@ export default function ViaHealthApp() {
               💳 Payment Method
             </h4>
             <div className="space-y-2">
-              {['Credit Card', 'PayPal', 'Cash on Service'].map(method => (
+              {['Baridi Mob', 'CCP', 'Cash on Service'].map(method => (
                 <button
                   key={method}
                   className="w-full p-4 rounded-xl border-2 border-blue-400 bg-gradient-to-r from-blue-50 to-teal-50 text-left flex items-center justify-between hover:shadow-md transition-all transform hover:scale-[1.02]"
@@ -231,18 +231,18 @@ export default function ViaHealthApp() {
               </div>
               <div className="flex justify-between mb-2">
                 <span className="text-gray-600">Service Fee</span>
-                <span className="font-semibold">$5</span>
+                <span className="font-semibold">600 DA</span>
               </div>
               <div className="flex justify-between mb-2 text-green-600">
                 <span className="font-medium">💰 Economy Discount</span>
-                <span className="font-bold">-$3</span>
+                <span className="font-bold">400 DA</span>
               </div>
               <div className="border-t-2 border-gray-300 my-2"></div>
               <div className="flex justify-between">
                 <span className="font-bold text-gray-800">Total</span>
-                <span className="font-bold text-teal-600 text-xl">
-                  ${parseInt(selectedService.price.slice(1)) + 2}
-                </span>
+               <span className="font-bold text-teal-600 text-xl">
+  {parseInt(selectedService.price.replace(/[^\d]/g, '')) + 200} DA  
+</span>
               </div>
             </div>
           </div>
@@ -272,7 +272,7 @@ export default function ViaHealthApp() {
       <div>
         <h2 className="text-3xl font-bold text-gray-800 mb-2">🎉 Booking Confirmed!</h2>
         <p className="text-gray-600">Your healthcare professional is on the way</p>
-        <p className="text-teal-600 text-sm mt-2">💰 You saved $3 with our economy plan!</p>
+        <p className="text-teal-600 text-sm mt-2">💰 You saved 400 DA with our economy plan!</p>
       </div>
 
       <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 text-left">
@@ -375,7 +375,7 @@ export default function ViaHealthApp() {
             <option>{editingBooking?.doctor}</option>
             <option>Dr. Chiheb Nour el imene</option>
             <option>Dr. Chiheb Wejdene</option>
-            <option>Dr. Fawzi</option>
+            <option>Dr. Chiheb Fawzi</option>
           </select>
         </div>
 
@@ -552,13 +552,13 @@ export default function ViaHealthApp() {
             className="w-full p-3 rounded-xl border border-gray-300 focus:border-blue-500 focus:outline-none"
           >
             <option>Cash</option>
-            <option>Credit Card</option>
-            <option>PayPal</option>
+            <option>Baridi Mob </option>
+            <option>CCP</option>
             <option>Insurance</option>
           </select>
         </div>
 
-        {profile.paymentMethod === 'Credit Card' && (
+        {profile.paymentMethod === 'CCP' && (
           <div>
             <label className="text-sm font-medium text-gray-700 block mb-2">Card Number</label>
             <input
