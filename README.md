@@ -1,92 +1,57 @@
-# 🚀 create-rvst
+# 💉 Via-Health
 
-A modern CLI tool to scaffold a new **RVST-Stack** project using **Vite**, **React**, **Shadcn UI**, and **Tailwind CSS**.
-
-## 🌟 Features
-
-- ⚡ **Vite** - Lightning-fast build tool and dev server
-- ⚛️ **React** - Popular UI library for building user interfaces
-- 🎨 **Shadcn UI** - High-quality, accessible component system
-- 🌊 **Tailwind CSS** - Utility-first CSS framework
-- 🔥 **Hot Module Replacement (HMR)** - Instant feedback during development
-- 🧪 **ESLint** - Code linting for best practices
+[🌐 Live Demo](https://via-health-48ei.vercel.app/)
 
 ---
 
-## 📚 Installation
+## 📖 About the Project
+**Via-Health** is a React-based web application created as part of my **Economy Project** 💼.  
+It focuses on **healthcare at home** 🏥, allowing users to track, visualize, and manage medical-related data easily.  
 
-To create a new **RVST-Stack** project, run:
-
-```sh
-npx create-rvst my-app
-```
-
-or using **npm**:
-
-```sh
-npm create rvst my-app
-```
-
-Then navigate to your project and start the development server:
-
-```sh
-cd my-app
-npm run dev
-```
-
-Open your browser and go to **[http://localhost:5173](http://localhost:5173)**.
+This is just the **frontend version** for now ⚡, and I'm actively looking to **develop it further** with a backend, more features, and better UX/UI 🎨.  
 
 ---
 
-## 📁 Project Structure
-
-```
-my-app/
-├── src/
-│   ├── App.jsx
-│   ├── components/
-│   ├── styles/
-│   │   └── main.css
-│   └── index.css
-├── public/
-├── package.json
-├── vite.config.js
-├── README.md
-└── .eslintrc.json
-```
+## ✨ Features
+- 📝 **Data Tracking:** Log medical/home health data easily  
+- 📊 **Visualizations:** See charts/stats of your health info  
+- ⚡ **Fast & Responsive:** Built with React for smooth performance  
+- 🎯 **Scalable:** Designed to expand with backend and more advanced features  
 
 ---
 
-## 🛠️ Tech Stack
+## 🖼 Demo / Screenshots
+See it live here: [https://via-health-48ei.vercel.app/](https://via-health-48ei.vercel.app/)  
 
-| Technology  | Description |
-|-------------|------------|
-| [React](https://react.dev/) | JavaScript library for UI development |
-| [Vite](https://vitejs.dev/) | Fast build tool and dev server |
-| [Shadcn UI](https://ui.shadcn.com/) | Pre-styled accessible UI components |
-| [Tailwind CSS](https://tailwindcss.com/) | Utility-first CSS framework |
-| [ESLint](https://eslint.org/) | Code linting and formatting |
+Screenshots (optional):
+![Homepage](path/to/screenshot1.png)  
+![Data View](path/to/screenshot2.png)  
 
 ---
 
-## 🔌 Vite Plugins Used
-
-| Plugin | Description |
-|--------|------------|
-| `@vitejs/plugin-react` | Uses Babel for Fast Refresh |
-| `@vitejs/plugin-react-swc` | Uses SWC for Fast Refresh |
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!  
-Feel free to **fork** this repo and submit a PR. 🚀
+## 🛠 Technologies Used
+- ⚛️ **React**  
+- 🎨 **CSS / Tailwind (if used)**  
+- 📈 **Charts / Visualization Libraries** (if used)  
+- 🧰 **Other Tools:** npm, Vercel for deployment  
 
 ---
 
-## 📝 License
+## 🚀 Getting Started (Run Locally)
+```bash
+# 1️⃣ Clone the repo
+git clone https://github.com/YOUR_GITHUB_USERNAME/your-repo-name.git
+cd your-repo-name
 
-This project is licensed under the **MIT License**.  
-See [LICENSE](LICENSE) for more details.
+# 2️⃣ Install dependencies
+npm install
+# or
+yarn install
 
+# 3️⃣ Run the app
+npm start
+# or
+yarn start
+
+# 4️⃣ Open in browser
+# Visit http://localhost:3000
