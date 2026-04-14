@@ -38,7 +38,7 @@ Screenshots :
 ## 🚀 Getting Started (Run Locally)
 ```bash
 # 1️⃣ Clone the repo
-git clone https://github.com/YOUR_GITHUB_USERNAME/your-repo-name.git
+git clone https://github.com/itsmeisraa/your-repo-name.git
 cd your-repo-name
 
 # 2️⃣ Install dependencies
